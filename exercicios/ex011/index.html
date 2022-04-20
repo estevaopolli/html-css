@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídia</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Diminua a tela do site para ver a mágica acontecer uau</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto_m.png" type="image/png">
+        <img src="imagens/foto_g.png" alt="imagem_grande">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Ednaldo Pereira - Vale nada Vale tudo</p>
+    <audio src="midia/valenadavaletudo.mp3" controls></audio>
+</body>
+</html>

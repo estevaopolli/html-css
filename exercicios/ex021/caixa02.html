@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 10px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        nav{
+            background-color: rgb(95, 95, 95);
+            padding: 3px;
+            box-shadow: 3px 2px 6px 1px rgba(0, 0, 0, 0.247);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 300px;
+        }
+
+        div.button{
+            background-color: #1A8CD8;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            margin: auto;
+            width: 180px;
+            height: 15px;
+            padding: 15px;
+            border-radius: 25px;
+        }
+
+        div.button:hover{
+            transition: 0.2s;
+            background-color: #1781c7;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticia sobre Ednaldo Pereira</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, quam fugiat. Esse blanditiis quam atque id dolor doloremque consequuntur maxime rem, provident odio praesentium omnis, inventore adipisci libero qui eligendi!</p>
+                <aside>
+                    <p>Artigo escrito por Ednaldo Pereira</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Stevan</p>
+    </footer>
+
+    <a style="text-decoration: none;" target="_blank" role="external" href="https://twitter.com/compose/tweet">
+        <div class="button">Tweetar</div>
+    </a>
+</body>
+</html>

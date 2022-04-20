@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes</title>
+    <style>
+
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .block{
+            display: inline-block;
+            background-color: lightgray;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+            text-align: center;
+        }
+
+        .block > img{
+            display: none;
+        }
+
+        .block:hover {
+            background-color: gray;
+        }
+
+        .block:hover > img{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="block"><img src="https://4.bp.blogspot.com/-Yuq1PZz805E/U6q-iXXilJI/AAAAAAABWf8/Hv7dTrMFzxg/s1600/37.gif" alt=""></div>
+    <div class="block"><img src="https://i.pinimg.com/originals/ba/29/f1/ba29f1e272a3667cc471c0c53ea77cb5.gif" alt="" style="transform: scaleX(-1);"></div>
+    <div class="block"><img src="http://static1.squarespace.com/static/5d3233d33f6cdf0001a207e4/5d32356edfb19a0001bd96ea/5df01d66e92faa2d969b416a/1576020858379/HeMan_dance_sp.gif?format=1500w" alt=""></div>
+</body>
+</html>
